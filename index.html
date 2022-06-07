@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="assets/css/estilos.css">
+        <link rel="stylesheet" href="assets/icons/style.css">
+
+        <title>Universe Petshop</title>
+    </head>
+
+    <body>
+        <header id="header">
+            <nav class="nav container">
+                <div class="left grid">
+                    <a href="#"> <img src="assets/logo.png" alt="Logo do site"></a>
+                    <div class="menu">
+                        <ul class="grid">
+                            <li><a href="#"> Incio</a></li>
+                            <li><a href="#"> Serviços</a></li>
+                            <li><a href="#"> Quem somos</a></li>
+                            <li><a href="#"> Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="toggle icon-menu"></div>
+                    <div class="toggle icon-x"></div>
+                        <a class="btn-contatar" href="#">
+                            Contatar
+                            <span class="icon-arrow-right"></span>
+                         </a>
+                
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- HOME -->
+            <section id="home">
+                <div class="container grid">
+                    <div class="text grid">
+                        <h2 class="title">UNIVERSE PETSHOOP</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde fugit voluptas, iure obcaecati rerum, quo, quae maxime doloremque debitis sint reprehenderit. Adipisci laudantium repellat ipsum ullam voluptatum qui ipsa </p>
+                        <a class="button" href="#">Ver Serviços</a>
+                    </div>
+
+                    <div class="image grid">
+                        <img src="assets/cachorro.png" alt="">
+                    </div>
+                </div> 
+            </section>
+            <!-- SERVIÇOS -->
+            <section class="section" id="services">
+                <div class="container grid">
+                    <div class="cards grid">
+             
+                        <!-- Card 1 -->
+                        <div class="card left" card-equal>
+                            <h4>CASTRAÇÃO</h4>
+                            <div class="image">
+                                <img src="assets/castracao.png" alt="Coração com uma pata dentro">
+                            </div>
+                        </div>
+                        <!-- Card 2  -->
+                        <div class="card card-diff">
+                            <h4>BANHO E TOSA</h4>
+                            <div class="image">
+                                <img src="assets/shampoo.png" alt="Shampoo para pet">
+                            </div>
+                            <p>Nós oferecemos um cuidado cheio de carinho e amor</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="card right card-equal">
+                            <h4>PRODUTOS</h4>
+                            <div class="imag">
+                                <img src="assets/produtos.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+            </section>
+
+            <!-- QUEM SOMOS-->
+            <section class="section" id="about">
+                <div class="container grid">
+                    <div class="text">
+                        <h2 class="title">QUEM SOMOS</h2>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error, ab itaque, mollitia eaque maxime voluptas neque perspiciatis, quas possimus quisquam consequuntur deleniti nostrum consequatur adipisci qui vero omnis provident.</P>
+                    </div>
+                    <div class="image">
+                        <div class="img-gato">
+                            <img src="assets/gato.png" alt="Imagem de um gato">
+                        </div>
+                        <a class="button" href="#">Ver Serviço</a>
+                    </div>
+            
+                </div>
+            </section>
+            <!-- CONTATO -->
+            <section class="section" id="contact">
+                <div class="container grid">
+                    <div class="content">
+                        <h2 class="title">ENTRE EM CONTATO</h2>
+                        
+                        <form class="form" onsubmit="return validForm()">
+                            <label for="name">Nome</label>
+                            <input type="text" class="input" id="name">
+                        
+                            <label for="phone">Telefone</label>
+                            <input type="text" class="input" id="phone">
+
+                            <label for="email">E-mail</label>
+                            <input type="text" class="input" id="email">
+                        
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" cols="22" rows="10"></textarea>
+                        
+                            <button class="button">Enviar</button>
+
+                        </form>
+                    </div>
+                </div>    
+            </section>
+
+        </main>
+
+        <footer id="footer">
+            <div class="container grid">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3528.9278504033878!2d-50.32566758526807!3d-27.811991638004447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e01f36ed163d31%3A0x9182d60354b8d2a0!2sCode%20Universe!5e0!3m2!1spt-BR!2sbr!4v1652541947840!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            
+                <div class="social">
+                    <h5>
+                        <span class="icon icon-phone"></span>
+                        <p>(00) 0 0000-0000</p>
+                    </h5>
+
+                    <h5>
+                        <span class="icon icon-whatsapp"></span>
+                        <p>(00) 0 0000-0000</p>
+                    </h5>
+
+                    <h5>
+                        <span class="icon icon-instagram"></span>
+                        <p>@UniversePetShop</p>
+                    </h5>
+                </div>
+            </div>
+            <p>Todos os direitos reservadod - 2021</p>    
+        </footer>
+
+        <script src="assets/js/main.js"></script>
+ 
+    </body>
+</html>
